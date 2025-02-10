@@ -6,10 +6,12 @@ pages root /docs 설정
 
 LLM_PRJ_TEST
 └─docs
-└─assets
-└─index.html
+....└─assets
+....└─index.html
 
 git branch step1
 git branch -d step1  
 git branch -c step1
-ls
+
+add ogtag..
+add favicon..
