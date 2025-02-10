@@ -2,7 +2,7 @@ async function main() {
   async function handleCC(event) {
     event.preventDefault();
 
-    const url = "http://127.0.0.1:3000/";
+    const url = "https://spangled-polydactyl-pound.glitch.me/";
     const formData = new FormData(document.querySelector("#ccForm"));
     const text = formData.get("text");
 
@@ -12,7 +12,6 @@ async function main() {
     const spinner = document.createElement("div");
     spinner.classList.add("spinner-border");
     document.querySelector("#box").appendChild(spinner);
-    box.textContent = "Loading..."; // 로딩 표시
 
     // document.querySelector("#box").textContent = "눌렀네용!";
     console.log(text);

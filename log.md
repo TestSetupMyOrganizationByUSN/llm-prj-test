@@ -131,3 +131,5 @@ llm_prj_test_wrapper
     ```
         apikey 저장
     ```
+
+npm i dotenv
