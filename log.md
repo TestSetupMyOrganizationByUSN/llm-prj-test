@@ -133,3 +133,20 @@ llm_prj_test_wrapper
     ```
 
 npm i dotenv
+
+/rbd/pnpm-volume/b0ea6b6b-f189-47cb-b65a-b813d67b438c/node_modules/axios/index.js:1
+import axios from './lib/axios.js';
+^^^^^
+
+glitch에서 트러블슈팅
+require("dotenv").config();
+
+const express = require("express");
+const cors = require("cors");
+const axios = require("axios");
+
+es6
+
+CommonJS 환경이 아니여서 문법오류가 발생
+
+"type": "commonjs",

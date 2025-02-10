@@ -2,7 +2,7 @@ async function main() {
   async function handleCC(event) {
     event.preventDefault();
 
-    const url = "https://spangled-polydactyl-pound.glitch.me/";
+    const url = "https://spangled-polydactyl-pound.glitch.me";
     const formData = new FormData(document.querySelector("#ccForm"));
     const text = formData.get("text");
 
